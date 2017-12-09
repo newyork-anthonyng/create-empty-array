@@ -1,3 +1,49 @@
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![Travis build status](https://travis-ci.org/newyork-anthonyng/create-empty-array.svg?branch=master)
+[![Codecov branch](https://img.shields.io/codecov/c/github/newyork-anthonyng/create-empty-array/master.svg)]()
+
+# Why?
+In React, there are times when you have a `number` and want to iterate over it.
+
+You might do something like this:
+```jsx
+import React from "react";
+
+const MyList = ({ length }) => {
+  let temporaryArray = [];
+  let i = 0;
+  while (i < length) {
+    temporaryArray.push(undefined);
+    i++;
+  }
+
+  return (
+    <ul>
+      {temporaryArray.map((_, index) => {
+        <li key={index}>Another one</li>
+      })}
+    </ul>  
+  );
+};
+```
+
+This utility creates an empty array with length `number` which you can then `map` over.
+
+```jsx
+import React from "react";
+import createEmptyArray from "create-empty-array";
+
+const MyList = ({ length }) => {
+  return (
+    <ul>
+      {createEmptyArray(length).map((_, index) => {
+        <li key={index}>Another one</li>
+      })}
+    </ul>  
+  );
+};
+```
+
 # Getting started
 ```shell
 npm install --save create-empty-array
@@ -12,24 +58,6 @@ const emptyArray = createEmptyArray(3);
 
 const mapOverEmptyArray = emptyArray.map(() => "hi");
 // ["hi", "hi", "hi"]
-```
-
-# Usage with React
-With React, there are times when you have a number and want to iterate over it. This utility creates an array for you which you can then use `map` with.
-
-```jsx
-import React from "react";
-import createEmptyArray from "create-empty-array";
-
-class MyList extends React.Component {
-  render() {
-    return (
-      <ul>
-        {createEmptyArray(10).map((_, index) => <li key={index}>Hi</li>}
-      </ul>
-    );
-  }
-}
 ```
 
 # Performance

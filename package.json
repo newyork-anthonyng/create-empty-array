@@ -1,24 +1,31 @@
 {
   "name": "create-empty-array",
   "version": "1.0.0",
-  "description": "Create an empty array that you can iterate over.",
+  "description": "Create an empty iterable array.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "test.watch": "jest --watch",
     "test.cover": "jest --coverage",
     "lint": "eslint src/**.js",
-    "validate": "npm run test.cover && npm run lint && npm run build.prod",
+    "validate": "npm run test.cover && npm run lint",
     "afterSuccess": "codecov"
   },
   "keywords": [
     "create",
     "empty",
+    "iterable",
     "array"
   ],
   "author": "Anthony Ng <newyork.anthonyng@gmail.com> (http://anthonyng.me)",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^21.2.1"
+    "codecov": "^3.0.0",
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "jest": "^21.2.1",
+    "prettier": "^1.9.1"
   }
 }
