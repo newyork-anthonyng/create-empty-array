@@ -1,0 +1,24 @@
+{
+  "name": "create-empty-array",
+  "version": "1.0.0",
+  "description": "Create an empty array that you can iterate over.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test.watch": "jest --watch",
+    "test.cover": "jest --coverage",
+    "lint": "eslint src/**.js",
+    "validate": "npm run test.cover && npm run lint && npm run build.prod",
+    "afterSuccess": "codecov"
+  },
+  "keywords": [
+    "create",
+    "empty",
+    "array"
+  ],
+  "author": "Anthony Ng <newyork.anthonyng@gmail.com> (http://anthonyng.me)",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}

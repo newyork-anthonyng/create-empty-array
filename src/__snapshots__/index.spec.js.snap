@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should create empty iterable array 1`] = `
+Array [
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+]
+`;
+
+exports[`should create empty iterable array 2`] = `
+Array [
+  "Hi",
+  "Hi",
+  "Hi",
+  "Hi",
+  "Hi",
+]
+`;
+
+exports[`should not explode when length is not specified 1`] = `
+Array [
+  undefined,
+]
+`;
