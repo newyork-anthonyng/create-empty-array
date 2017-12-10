@@ -1,6 +1,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![Travis build status](https://travis-ci.org/newyork-anthonyng/create-empty-array.svg?branch=master)
-[![Codecov branch](https://img.shields.io/codecov/c/github/newyork-anthonyng/create-empty-array/master.svg)]()
+[![Codecov branch](https://img.shields.io/codecov/c/github/newyork-anthonyng/create-empty-array/master.svg)](https://codecov.io/gh/newyork-anthonyng/create-empty-array)
 
 # Why?
 In React, there are times when you have a `number` and want to iterate over it.
