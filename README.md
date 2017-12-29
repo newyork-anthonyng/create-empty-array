@@ -1,7 +1,9 @@
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-![Travis build status](https://travis-ci.org/newyork-anthonyng/create-empty-array.svg?branch=master)
-[![Codecov branch](https://img.shields.io/codecov/c/github/newyork-anthonyng/create-empty-array/master.svg)](https://codecov.io/gh/newyork-anthonyng/create-empty-array)
-[![Maintainability](https://api.codeclimate.com/v1/badges/faefec967ef40a030c3e/maintainability)](https://codeclimate.com/github/newyork-anthonyng/create-empty-array/maintainability)
+[![PRs Welcome][pull-request-badge]](http://makeapullrequest.com)
+[![Travis build status][travis-badge]][travis-build]
+[![Codecov branch][codecov-badge]][codecov]
+[![Maintainability][code-climate-badge]][code-climate]
+[![gzip size][gzip-badge]][unpkg]
+[![size][size-badge]][unpkg]
 
 # Why?
 In React, there are times when you have a `number` and want to iterate over it.
@@ -63,3 +65,14 @@ const mapOverEmptyArray = emptyArray.map(() => "hi");
 
 # Performance
 See this [performance test on jsperf](https://jsperf.com/create-empty-arrays/).
+
+[codecov]: https://codecov.io/gh/newyork-anthonyng/create-empty-array
+[codecov-badge]: https://img.shields.io/codecov/c/github/newyork-anthonyng/create-empty-array/master.svg
+[code-climate]: https://codeclimate.com/github/newyork-anthonyng/create-empty-array/maintainability
+[code-climate-badge]: https://api.codeclimate.com/v1/badges/faefec967ef40a030c3e/maintainability
+[pull-request-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[travis-badge]: https://travis-ci.org/newyork-anthonyng/create-empty-array.svg?branch=master
+[travis-build]: https://travis-ci.org/newyork-anthonyng/create-empty-array
+[gzip-badge]: http://img.badgesize.io/https://unpkg.com/create-empty-array?compression=gzip&label=gzip%20size&style=flat-square
+[size-badge]: http://img.badgesize.io/https://unpkg.com/create-empty-array?label=size&style=flat-square
+[unpkg]: https://unpkg.com/create-empty-array
