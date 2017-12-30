@@ -1,9 +1,14 @@
-[![PRs Welcome][pull-request-badge]](http://makeapullrequest.com)
 [![Travis build status][travis-badge]][travis-build]
 [![Codecov branch][codecov-badge]][codecov]
-[![Maintainability][code-climate-badge]][code-climate]
+[![npm][npm-badge]][npm-version]
+[![downloads][downloads-badge]][npmcharts]
+[![MIT License][license-badge]][license]
+
 [![gzip size][gzip-badge]][unpkg]
 [![size][size-badge]][unpkg]
+
+[![Maintainability][code-climate-badge]][code-climate]
+[![PRs Welcome][pull-request-badge]](http://makeapullrequest.com)
 
 # Why?
 In React, there are times when you have a `number` and want to iterate over it.
@@ -70,6 +75,12 @@ See this [performance test on jsperf](https://jsperf.com/create-empty-arrays/).
 [codecov-badge]: https://img.shields.io/codecov/c/github/newyork-anthonyng/create-empty-array/master.svg
 [code-climate]: https://codeclimate.com/github/newyork-anthonyng/create-empty-array/maintainability
 [code-climate-badge]: https://api.codeclimate.com/v1/badges/faefec967ef40a030c3e/maintainability
+[downloads-badge]: https://img.shields.io/npm/dm/create-empty-array.svg?style=flat-square
+[license]: https://github.com/newyork-anthonyng/create-empty-array/blob/master/LICENSE
+[license-badge]: https://img.shields.io/npm/l/create-empty-array.svg?style=flat-square
+[npmcharts]: https://npmcharts.com/compare/create-empty-array
+[npm-version]:https://www.npmjs.com/package/create-empty-array
+[npm-badge]: https://img.shields.io/npm/v/create-empty-array.svg?style=flat-square
 [pull-request-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [travis-badge]: https://travis-ci.org/newyork-anthonyng/create-empty-array.svg?branch=master
 [travis-build]: https://travis-ci.org/newyork-anthonyng/create-empty-array
