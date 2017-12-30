@@ -1,6 +1,6 @@
 {
   "name": "create-empty-array",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create an empty iterable array.",
   "main": "src/index.js",
   "scripts": {
@@ -18,7 +18,14 @@
     "array"
   ],
   "author": "Anthony Ng <newyork.anthonyng@gmail.com> (http://anthonyng.me)",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newyork-anthonyng/create-empty-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newyork-anthonyng/create-empty-array/issues"
+  },
+  "license": "MIT",
   "devDependencies": {
     "codecov": "^3.0.0",
     "eslint": "^4.13.0",
