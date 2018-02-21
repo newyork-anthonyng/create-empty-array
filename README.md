@@ -27,9 +27,9 @@ const MyList = ({ length }) => {
 
   return (
     <ul>
-      {temporaryArray.map((_, index) => {
+      {temporaryArray.map((_, index) => (
         <li key={index}>Another one</li>
-      })}
+      ))}
     </ul>  
   );
 };
@@ -44,9 +44,9 @@ import createEmptyArray from "create-empty-array";
 const MyList = ({ length }) => {
   return (
     <ul>
-      {createEmptyArray(length).map((_, index) => {
+      {createEmptyArray(length).map((_, index) => (
         <li key={index}>Another one</li>
-      })}
+      ))}
     </ul>  
   );
 };
